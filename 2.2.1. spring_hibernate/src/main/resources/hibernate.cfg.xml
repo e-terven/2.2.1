@@ -8,9 +8,9 @@
     <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
     <property name="connection.username">root</property>
     <property name="connection.password">mysql33!</property>
-    <mapping class="hiber.model.User" />
-    <mapping class="hiber.model.Car" />
+    <!-- mapping class="hiber.model.User" /> -->
+    <!-- mapping class="hiber.model.Car" /> -->
     <!-- DB schema will be updated if needed -->
-    <property name="hibernate.hbm2ddl.auto">update</property>
+    <!-- property name="hibernate.hbm2ddl.auto">create-drop</property> -->
   </session-factory>
 </hibernate-configuration>
